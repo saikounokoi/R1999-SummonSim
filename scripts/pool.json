@@ -1,5 +1,5 @@
 [
-	{"name": "Door", "rarity": "2", "afflatus": "Intellect", "rate": 0.05},
+	"Door": {"name": "Door", "rarity": "2", "afflatus": "Intellect", "rate": 0.05},
 	{"name": "Ms. Radio", "rarity": "2", "afflatus": "Spirit", "rate": 0.05},
 	{"name": "aliEn T", "rarity": "3", "afflatus": "Star", "rate": 0.45},
 	{"name": "Bette", "rarity": "3", "afflatus": "Mineral", "rate": 0.45},
