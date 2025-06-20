@@ -1,15 +1,15 @@
 "pool":[
-	{"name": "Door", "rarity": "2", "afflatus": "Intellect", "rate": 0.05}
-	{"name": "Ms. Radio", "rarity": "2", "afflatus": "Spirit", "rate": 0.05}
-	{"name": "aliEn T", "rarity": "3", "afflatus": "Star", "rate": 0.45}
-	{"name": "Bette", "rarity": "3", "afflatus": "Mineral", "rate": 0.45}
-	{"name": "Darley Clatter", "rarity": "3", "afflatus": "Beast", "rate": 0.45}
-	{"name": "John Titor", "rarity": "3", "afflatus": "Spirit", "rate": 0.45}
-	{"name": "La Source", "rarity": "3", "afflatus": "Plant", "rate": 0.45}
-	{"name": "Leilani", "rarity": "3", "afflatus": "Beast", "rate": 0.45}
-	{"name": "ONiON", "rarity": "3", "afflatus": "Mineral", "rate": 0.45}
-	{"name": "Pioneer", "rarity": "3", "afflatus": "Spirit", "rate": 0.45}
-	{"name": "Sputnik", "rarity": "3", "afflatus": "Star", "rate": 0.45}
-	{"name": "The Fool", "rarity": "3", "afflatus": "Star", "rate": 0.45}
+	{"name": "Door", "rarity": "2", "afflatus": "Intellect", "rate": 0.05},
+	{"name": "Ms. Radio", "rarity": "2", "afflatus": "Spirit", "rate": 0.05},
+	{"name": "aliEn T", "rarity": "3", "afflatus": "Star", "rate": 0.45},
+	{"name": "Bette", "rarity": "3", "afflatus": "Mineral", "rate": 0.45},
+	{"name": "Darley Clatter", "rarity": "3", "afflatus": "Beast", "rate": 0.45},
+	{"name": "John Titor", "rarity": "3", "afflatus": "Spirit", "rate": 0.45},
+	{"name": "La Source", "rarity": "3", "afflatus": "Plant", "rate": 0.45},
+	{"name": "Leilani", "rarity": "3", "afflatus": "Beast", "rate": 0.45},
+	{"name": "ONiON", "rarity": "3", "afflatus": "Mineral", "rate": 0.45},
+	{"name": "Pioneer", "rarity": "3", "afflatus": "Spirit", "rate": 0.45},
+	{"name": "Sputnik", "rarity": "3", "afflatus": "Star", "rate": 0.45},
+	{"name": "The Fool", "rarity": "3", "afflatus": "Star", "rate": 0.45},
 	{"name": "Twins Sleep", "rarity": "3", "afflatus": "Spirit", "rate": 0.45}
 ]
