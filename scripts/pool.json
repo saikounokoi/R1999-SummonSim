@@ -1,3 +1,4 @@
+{"pool":
 [
 	{"name": "Door", "rarity": "2", "afflatus": "Intellect", "rate": 0.05},
 	{"name": "Ms. Radio", "rarity": "2", "afflatus": "Spirit", "rate": 0.05},
@@ -13,3 +14,4 @@
 	{"name": "The Fool", "rarity": "3", "afflatus": "Star", "rate": 0.45},
 	{"name": "Twins Sleep", "rarity": "3", "afflatus": "Spirit", "rate": 0.45}
 ]
+}
