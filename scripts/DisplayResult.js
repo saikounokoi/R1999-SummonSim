@@ -35,9 +35,11 @@ function DisplayResult(x) {
 	document.getElementById('Info').innerHTML = 'Clear Drop used: ' + (ClearDrop = ClearDrop + 180 * x) + '&nbsp; &nbsp; &nbsp; &nbsp; Total pulls: ' + (TotalPulls = TotalPulls + x);
 	document.getElementById('result').style.display = 'flex';
 	document.getElementById('return').style.display = 'inline-block';
+	document.getElementById('home').style.display = 'none';
 }
 function turnback() {
 	document.getElementById('return').style.display = 'none';
 	document.getElementById('result').style.display = 'none';
 	document.getElementById('banner').style.display = 'inline-block';
+	document.getElementById('home').style.display = 'inline-block';
 }
