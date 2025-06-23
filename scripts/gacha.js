@@ -19,33 +19,45 @@ function character(x) {
 		return FourStars[Math.floor(Math.random() * FourStars.length)].id;
 	}
 	else if (x == 'Five Stars') {
-		if (Math.floor(Math.random() * 2) == 1) {
-			console.log('5 stars from Rate Up');
-			return FiveStarsRateUp[Math.floor(Math.random() * FiveStarsRateUp.length)].id;
+		if (RateUp == 1) {
+			if (Math.floor(Math.random() * 2) == 1) {
+				console.log('5 stars from Rate Up');
+				return FiveStarsRateUp[Math.floor(Math.random() * FiveStarsRateUp.length)].id;
+			}
+			else {
+			return FiveStars[Math.floor(Math.random() * FiveStars.length)].id;
+			}
 		}
 		else {
-		return FiveStars[Math.floor(Math.random() * FiveStars.length)].id;
+			console.log('This banner has no rate up');
+			return FiveStars[Math.floor(Math.random() * FiveStars.length)].id;
 		}
 	}
 	else if (x == 'Six Stars') {
-		if (GuaranteedRateUp == 1 && GuaranteedRateUpUsed != 1) {
-			GuaranteedRateUpUsed = 1;
-			console.log('Rate Up with Guaranteed');
-			return SixStarsRateUp[Math.floor(Math.random() * SixStarsRateUp.length)].id;
-		}
-		else if (Math.floor(Math.random() * 2) == 1) {
-			GuaranteedRateUpUsed = 1;
-			console.log('Rate Up without Guaranteed');
-			return SixStarsRateUp[Math.floor(Math.random() * SixStarsRateUp.length)].id;
-		}
-		else {
-			GuaranteedRateUp = 1;
-			if (GuaranteedRateUpUsed == 1) {
-				console.log('Rate up Guaranteed is already used');
+		if (RateUp == 1) {
+			if (GuaranteedRateUp == 1 && GuaranteedRateUpUsed != 1) {
+				GuaranteedRateUpUsed = 1;
+				console.log('Rate Up with Guaranteed');
+				return SixStarsRateUp[Math.floor(Math.random() * SixStarsRateUp.length)].id;
+			}
+			else if (Math.floor(Math.random() * 2) == 1) {
+				GuaranteedRateUpUsed = 1;
+				console.log('Rate Up without Guaranteed');
+				return SixStarsRateUp[Math.floor(Math.random() * SixStarsRateUp.length)].id;
 			}
 			else {
-				console.log('Next 6 stars will be the rate up');
+				GuaranteedRateUp = 1;
+				if (GuaranteedRateUpUsed == 1) {
+					console.log('Rate up Guaranteed is already used');
+				}
+				else {
+					console.log('Next 6 stars will be the rate up');
+				}
+				return SixStars[Math.floor(Math.random() * SixStars.length)].id;
 			}
+		}
+		else {
+			console.log('This banner has no rate up');
 			return SixStars[Math.floor(Math.random() * SixStars.length)].id;
 		}
 	}
@@ -63,11 +75,11 @@ function gacha() {
 	}
 	else if (SixStarsPity >= 59) {
 		let SoftPity = [
-		{name: 'Two Stars', stars: 2, rate: 5 },
-		{name: 'Three Stars', stars: 3, rate: 45 },
-		{name: 'Four Stars', stars: 4, rate: 40 },
-		{name: 'Five Stars', stars: 5, rate: 8.5 },
-		{name: 'Six Stars', stars: 6, rate: 4 },
+		{ name: 'Two Stars', stars: 2, rate: 5 },
+		{ name: 'Three Stars', stars: 3, rate: 45 },
+		{ name: 'Four Stars', stars: 4, rate: 40 },
+		{ name: 'Five Stars', stars: 5, rate: 8.5 },
+		{ name: 'Six Stars', stars: 6, rate: 4 },
 		];
 		SoftPity[4].rate = 4 + 2.5 * (SixStarsPity - 60);
 		SoftPity[1].rate = 45 - 2.5 * (SixStarsPity - 60);
