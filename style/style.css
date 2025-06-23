@@ -10,6 +10,7 @@
 	filter: brightness(105%);
 }
 .Summonx1 {
+	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
 	font-family: 'Bodoni';
@@ -30,6 +31,7 @@
 	filter: brightness(75%);
 }
 .Summonx10 {
+	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.5vw;
