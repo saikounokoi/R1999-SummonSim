@@ -2,13 +2,6 @@
 	font-family: 'Bodoni';
 	src: url('../font/LibreBodoni-VariableFont_wght.ttf');
 }
-.CharacterSlot {
-	filter: brightness(100%);
-	width: 17%;
-}
-.CharacterSlot:hover {
-	filter: brightness(105%);
-}
 .Summonx1 {
 	cursor: pointer;
 	text-align: center;
@@ -31,7 +24,6 @@
 	filter: brightness(75%);
 }
 .Summonx10 {
-	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
 	font-size: 1.5vw;
@@ -59,6 +51,13 @@
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-content: space-around;
+}
+.CharacterSlot {
+	filter: brightness(100%);
+	width: 17%;
+}
+.CharacterSlot:hover {
+	filter: brightness(105%);
 }
 body {
 	background-image: url('../img/bg_heibianzhuangshi.png');

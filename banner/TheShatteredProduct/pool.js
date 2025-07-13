@@ -1,3 +1,4 @@
+//2.6 pool
 const TwoStars = [
 	{	id: 10022, 
 		name: "Ms. Radio", 
