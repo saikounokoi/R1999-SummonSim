@@ -7,9 +7,9 @@ const SixStarsRateUp = [
 ]
 const FiveStarsRateUp = [
 	{	id: 10056, 
-		name: "Horrorpedia", 
+		name: "Horropedia", 
 		afflatus: "Mineral", 
-		prydwen: "horrorpedia"
+		prydwen: "horropedia"
 	},
 	{	id: 10014, 
 		name: "Charlie", 

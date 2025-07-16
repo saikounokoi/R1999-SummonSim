@@ -221,9 +221,9 @@ const FiveStars = [
 		prydwen: "blonney"
 	},
 	{	id: 10056, 
-		name: "Horrorpedia", 
+		name: "Horropedia", 
 		afflatus: "Mineral", 
-		prydwen: "horrorpedia"
+		prydwen: "horropedia"
 	},
 	{	id: 10059, 
 		name: "Diggers", 
