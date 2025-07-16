@@ -60,11 +60,19 @@
 	filter: brightness(105%);
 }
 body {
-	background-image: url('../img/bg_heibianzhuangshi.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
 	font-family: 'Bodoni';
 	font-size: 1.5vw;
+}
+.day {
+	background-image: url(../img/mainsceneswitch_mask.png), url(../img/mainsceneswitch_randombg01.png);
+}
+.evening {
+	background-image: url(../img/mainsceneswitch_mask.png), url(../img/mainsceneswitch_randombg02.png);
+}
+.night {
+	background-image: url(../img/mainsceneswitch_mask.png), url(../img/mainsceneswitch_randombg03.png);
 }

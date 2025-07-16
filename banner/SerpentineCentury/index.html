@@ -15,6 +15,24 @@
 	</head>
 	<body style='text-align:center'>
 
+		<script>
+			const d = new Date();
+			const h = d.getHours();
+			console.log(h);
+			if (6 <= h && h < 13) {
+				document.body.className = "day";
+				console.log('The time is day')
+			}
+			else if (13 <= h && h < 18) {
+				document.body.className = "evening";
+				console.log('The time is evening')
+			}
+			else {
+				document.body.className = "night";
+				console.log('The time is night')
+			}
+		</script>
+
 		<img id='banner' src="./banner.png" style="width: 68%">
 		
 		<div class='CharacterResult' id='result' style='display: none'></div>

@@ -35,10 +35,28 @@
 			margin: auto 15%;}
 	</style>
 	<body style='text-align:center'>
+
+		<script>
+			const d = new Date();
+			const h = d.getHours();
+			console.log(h);
+			if (6 <= h && h < 13) {
+				document.body.className = "day";
+				console.log('The time is day')
+			}
+			else if (13 <= h && h < 18) {
+				document.body.className = "evening";
+				console.log('The time is evening')
+			}
+			else {
+				document.body.className = "night";
+				console.log('The time is night')
+			}
+		</script>
 		
 		<img src="./img/Logo.png" style="width: 30%">
 		
-		<p>Fueling your gambling addiction since 2025<br>Have fun my little addict.</p>
+		<p>Fueling your gambling addiction since 2025<br>Have fun my little gambler.</p>
 
 		<hr>
 		
